@@ -1,4 +1,7 @@
 #navcontent {
-    min-height: 20vh;
-    background-color: aqua;
+    min-height: 10vh;
+    background-color: rgb(10, 0, 56);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
