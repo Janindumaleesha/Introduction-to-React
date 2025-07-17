@@ -9,10 +9,10 @@ function HeaderContent() {
         <a href='' ><img src={logo} alt='React' /></a>
         <a href='' ><img src='vite.svg' alt='React' /></a>
         <div>
-          <MenuLinkContent linkname='Home' url='#home'/>
-          <MenuLinkContent linkname='About' url='#about'/>
-          <MenuLinkContent linkname='Contact' url='#contact'/>
-          <MenuLinkContent linkname='Login' url='#login'/>
+          <MenuLinkContent linkname='Home' url='/'/>
+          <MenuLinkContent linkname='About' url='/about'/>
+          <MenuLinkContent linkname='Contact' url='/contact'/>
+          <MenuLinkContent linkname='Login' url='/login'/>
         </div>
     </div>
   )

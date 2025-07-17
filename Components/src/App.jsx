@@ -27,7 +27,7 @@ function App() {
     <>
       <div id="wrapper">
 
-        <p className="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        {/* <p className="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Donec vel egestas dolor, nec dignissim metus. Donec augue elit, 
           rhoncus ac sodales id, porttitor vitae est. Donec laoreet rutrum 
           libero sed pharetra.</p>
@@ -40,17 +40,17 @@ function App() {
         <p style={style_css}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Donec vel egestas dolor, nec dignissim metus. Donec augue elit, 
           rhoncus ac sodales id, porttitor vitae est. Donec laoreet rutrum 
-          libero sed pharetra.</p>
+          libero sed pharetra.</p> */}
 
         {/* <button onClick={hello1}>Click</button>
         <button onClick={hello2}>Click</button>
         <button onClick={ () => {hello3("Janindu")} }>Click</button>
         <button onClick={ (e) => {hello4("Maleesha", e.target)} }>Click</button> */}
 
-        {/* <HeaderContent />
-        <BodyContent>
+        <HeaderContent />
+        {/* <BodyContent>
           <button>Click Me</button>
-        </BodyContent>
+        </BodyContent> */}
         <BodyContent>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting
              industry. Lorem Ipsum has been the industry's standard dummy text
@@ -62,7 +62,7 @@ function App() {
                sheets containing Lorem Ipsum passages, and more recently with
                 desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </BodyContent>
-        <FooterContent /> */}
+        {/* <FooterContent /> */}
       </div>
     </>
   )
