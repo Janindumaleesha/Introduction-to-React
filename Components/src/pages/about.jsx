@@ -9,6 +9,8 @@ function about() {
 
   const [count, setCount] = useState(0);
 
+  const [posts, setPosts] = useState([]);
+
   function handleClick() {
     setNum(4);
   }
@@ -23,6 +25,14 @@ function about() {
 
   useEffect(() => {
     console.log('Hi');
+  },[])
+
+  useEffect(() => {
+    fetch("https://jsonplaceholder.typicode.com/posts")
+    .then((resp) => resp.json())
+    .then((blogPosts) => setPosts(blogPosts))
+
+    console.log('run');
   },[])
 
   // let number = 10;
@@ -43,6 +53,9 @@ function about() {
           <button onClick={increase} style={{width:50,height:20,margin:10}}>+</button>
           <button onClick={decrease} style={{width:50,height:20}}>-</button>
           <p>{count}</p>
+          <ul>
+            {posts && posts.map((post) => <li key={post.id}>{post.title}</li>)}
+          </ul>
         </div>
     </>
   )
