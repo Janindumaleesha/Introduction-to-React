@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    margin-bottom: 1em;
+    padding: 1em, 2em;
+    background-color: aqua;
+    border-radius: 1em;
+    border: 2px solid gray;
+}
+
+ul:hover{
+    border: 2px solid blue;
+}
