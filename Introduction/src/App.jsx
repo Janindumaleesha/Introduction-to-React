@@ -1,3 +1,4 @@
+import Lession from "./Components/Lession";
 
 function App() {
 
@@ -29,7 +30,8 @@ function App() {
 
   return (
     <>
-      <div className="cont">
+      <Lession/>
+      {/* <div className="cont">
         <h1>Janindu Maleesha</h1>
         <p>{10*10}% for JSX</p>
         <p>{a}</p>
@@ -42,7 +44,7 @@ function App() {
         <p>{fname} like to eat {arr[0]}</p>
         <p>{lang}</p>
         <p>{obj.fname} is {obj.age} years old.</p>
-      </div>
+      </div> */}
     </>
   )
 }
