@@ -1,5 +1,7 @@
 import Comp1 from "./Components/Comp1";
 import Lession from "./Components/Lession";
+import Product from "./Components/Product";
+import Products from "./Components/Products";
 
 function App() {
 
@@ -33,6 +35,7 @@ function App() {
     <>
       {/* <Lession/> */}
       <Comp1/>
+      {/* <Product/> */}
       {/* <div className="cont">
         <h1>Janindu Maleesha</h1>
         <p>{10*10}% for JSX</p>
