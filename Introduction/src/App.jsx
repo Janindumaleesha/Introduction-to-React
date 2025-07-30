@@ -1,3 +1,4 @@
+import Comp1 from "./Components/Comp1";
 import Lession from "./Components/Lession";
 
 function App() {
@@ -30,7 +31,8 @@ function App() {
 
   return (
     <>
-      <Lession/>
+      {/* <Lession/> */}
+      <Comp1/>
       {/* <div className="cont">
         <h1>Janindu Maleesha</h1>
         <p>{10*10}% for JSX</p>

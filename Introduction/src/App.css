@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.box1 {
+    background-color: rgb(78, 112, 112);
+    padding: 2em;
+}
+
+.box2 {
+    background-color: blueviolet;
+    padding: 2em;
+}
+
+.box3 {
+    background-color: rgb(145, 128, 108);
+    padding: 2em;
+}
+
+.box4 {
+    background-color: blue;
+    padding: 2em;
+}
