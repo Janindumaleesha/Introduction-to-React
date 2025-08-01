@@ -1,3 +1,4 @@
+import Carousel from "./Components/Carousel";
 import Comp1 from "./Components/Comp1";
 import Lession from "./Components/Lession";
 import Product from "./Components/Product";
@@ -34,7 +35,8 @@ function App() {
   return (
     <>
       {/* <Lession/> */}
-      <Comp1/>
+      {/* <Comp1/> */}
+      <Carousel />
       {/* <Product/> */}
       {/* <div className="cont">
         <h1>Janindu Maleesha</h1>

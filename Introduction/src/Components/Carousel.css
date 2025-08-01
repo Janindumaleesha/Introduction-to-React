@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.img {
+    width: 500px;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
